@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="753" height="474" viewBox="0 0 753 474" role="img" aria-label="Baby Spa POS transaction screen preview">
+  <defs>
+    <linearGradient id="top" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff3df"/>
+      <stop offset="1" stop-color="#fff2b5"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1f2937" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="753" height="474" fill="#f8fafc"/>
+  <rect x="16" y="16" width="721" height="61" rx="12" fill="url(#top)" stroke="#f0d58a"/>
+  <text x="30" y="43" fill="#a63f12" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">POS Transaksi Baby Spa</text>
+  <text x="30" y="62" fill="#7a6a58" font-family="Inter, Arial, sans-serif" font-size="10">Pilih pasien, tambahkan beberapa layanan atau produk ke keranjang, lalu proses pembayaran dan cetak struk.</text>
+  <text x="670" y="39" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="7" font-weight="800">Custom POS</text>
+
+  <rect x="16" y="88" width="449" height="367" rx="13" fill="#fff" stroke="#e7ebf1" filter="url(#shadow)"/>
+  <rect x="477" y="88" width="260" height="367" rx="13" fill="#fff" stroke="#e7ebf1" filter="url(#shadow)"/>
+
+  <rect x="16" y="88" width="449" height="35" rx="13" fill="#f3f6fa"/>
+  <rect x="16" y="110" width="449" height="13" fill="#f3f6fa"/>
+  <text x="29" y="111" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="900">Keranjang Transaksi</text>
+
+  <rect x="477" y="88" width="260" height="35" rx="13" fill="#f3f6fa"/>
+  <rect x="477" y="110" width="260" height="13" fill="#f3f6fa"/>
+  <text x="490" y="111" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="900">Ringkasan Pembayaran</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="30" y="151" fill="#111827" font-size="10" font-weight="900">Pasien</text>
+    <rect x="64" y="138" width="150" height="21" rx="5" fill="#fff" stroke="#dfe5ed"/>
+    <text x="72" y="152" fill="#758195" font-size="9">Cari nama pasien / orang tua</text>
+    <rect x="220" y="138" width="164" height="21" rx="5" fill="#fff" stroke="#dfe5ed"/>
+    <text x="228" y="152" fill="#111827" font-size="9">-- Pilih Pasien --</text>
+
+    <text x="30" y="173" fill="#111827" font-size="10" font-weight="900">Produk / Layanan</text>
+    <rect x="30" y="177" width="151" height="21" rx="5" fill="#fff" stroke="#dfe5ed"/>
+    <text x="38" y="191" fill="#758195" font-size="9">Cari produk / layanan</text>
+    <rect x="30" y="203" width="177" height="21" rx="5" fill="#fff" stroke="#dfe5ed"/>
+    <text x="38" y="217" fill="#111827" font-size="9">-- Pilih Produk --</text>
+    <text x="273" y="201" fill="#111827" font-size="10" font-weight="900">Qty</text>
+    <rect x="273" y="204" width="96" height="21" rx="5" fill="#fff" stroke="#dfe5ed"/>
+    <text x="282" y="218" fill="#111827" font-size="9">1</text>
+    <rect x="366" y="203" width="72" height="23" rx="6" fill="#facc15"/>
+    <text x="380" y="218" fill="#111827" font-size="9" font-weight="800">Tambah Item</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="30" y="239" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="38" y="256" fill="#111827" font-size="10" font-weight="900">Baby Spa</text>
+    <text x="38" y="270" fill="#b45309" font-size="8">Rp 200.000</text>
+    <rect x="170" y="239" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="180" y="256" fill="#111827" font-size="10" font-weight="900">Cukur Gundul</text>
+    <text x="180" y="270" fill="#b45309" font-size="8">Rp 20.000</text>
+    <rect x="313" y="239" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="323" y="256" fill="#111827" font-size="10" font-weight="900">Home Service Luar Zona</text>
+    <text x="323" y="270" fill="#b45309" font-size="8">Rp 50.000</text>
+
+    <rect x="30" y="287" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="38" y="304" fill="#111827" font-size="10" font-weight="900">Home Service Zona 1</text>
+    <text x="38" y="318" fill="#b45309" font-size="8">Rp 15.000</text>
+    <rect x="170" y="287" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="180" y="304" fill="#111827" font-size="10" font-weight="900">Home Service Zona 2</text>
+    <text x="180" y="318" fill="#b45309" font-size="8">Rp 20.000</text>
+    <rect x="313" y="287" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="323" y="304" fill="#111827" font-size="10" font-weight="900">Home Service Zona 3</text>
+    <text x="323" y="318" fill="#b45309" font-size="8">Rp 35.000</text>
+
+    <rect x="30" y="335" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="38" y="352" fill="#111827" font-size="10" font-weight="900">Kids Spa</text>
+    <text x="38" y="366" fill="#b45309" font-size="8">Rp 150.000</text>
+    <rect x="170" y="335" width="136" height="42" rx="7" fill="#fff" stroke="#e5e9ef"/>
+    <text x="180" y="352" fill="#111827" font-size="10" font-weight="900">Paket Newborn Care</text>
+    <text x="180" y="366" fill="#b45309" font-size="8">Rp 200.000</text>
+  </g>
+
+  <rect x="30" y="394" width="421" height="49" rx="9" fill="#f8fafc" stroke="#cbd5e1" stroke-dasharray="2 2"/>
+  <text x="176" y="423" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="9">Belum ada item di keranjang.</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="490" y="148" fill="#111827" font-size="10">Jumlah jenis item</text>
+    <text x="718" y="148" text-anchor="end" fill="#111827" font-size="10" font-weight="900">0</text>
+    <text x="490" y="168" fill="#111827" font-size="10">Total qty</text>
+    <text x="718" y="168" text-anchor="end" fill="#111827" font-size="10" font-weight="900">0</text>
+    <line x1="490" x2="718" y1="187" y2="187" stroke="#e5e7eb"/>
+    <text x="490" y="210" fill="#111827" font-size="15" font-weight="900">Total bayar</text>
+    <text x="718" y="210" text-anchor="end" fill="#111827" font-size="15" font-weight="900">Rp 0</text>
+    <rect x="490" y="226" width="228" height="81" rx="8" fill="#f8fafc" stroke="#e5e9ef"/>
+    <text x="501" y="251" fill="#111827" font-size="9" font-weight="900">Uang Bayar</text>
+    <rect x="560" y="238" width="128" height="21" rx="5" fill="#fff" stroke="#e5e9ef"/>
+    <text x="568" y="252" fill="#7b8495" font-size="8">Masukkan nominal bayar</text>
+    <text x="501" y="279" fill="#111827" font-size="9">Kembalian</text>
+    <text x="710" y="279" text-anchor="end" fill="#111827" font-size="9" font-weight="900">Rp 0</text>
+    <text x="501" y="294" fill="#111827" font-size="8">Masukkan nominal bayar untuk melihat kembalian.</text>
+    <rect x="490" y="322" width="103" height="21" rx="4" fill="#0f8b5f"/>
+    <text x="503" y="336" fill="#fff" font-size="8" font-weight="800">Bayar &amp; Cetak Struk</text>
+  </g>
+</svg>
