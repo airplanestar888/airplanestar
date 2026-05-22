@@ -20,7 +20,7 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+      className={`fixed inset-x-0 top-3 z-50 transition-all duration-500 ${
         scrolled
           ? "border-b border-white/5 bg-[#090909]/90 backdrop-blur-2xl"
           : "bg-transparent"

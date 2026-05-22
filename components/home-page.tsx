@@ -64,7 +64,7 @@ export function HomePage() {
         <div className="absolute right-[15%] top-[20%] -z-10 size-[300px] rounded-full bg-orange/20 blur-[80px] animate-float" aria-hidden />
         <div className="absolute left-[5%] bottom-[20%] -z-10 size-[200px] rounded-full bg-orange/10 blur-[60px] animate-float" style={{ animationDelay: "2s" }} aria-hidden />
 
-        <div className="container-shell grid gap-16 py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+        <div className="container-shell grid gap-10 py-20 lg:grid-cols-[0.65fr_1.35fr] lg:items-start">
           {/* LEFT: Text block */}
           <motion.div
             initial={{ opacity: 0, y: 32 }}
@@ -95,9 +95,9 @@ export function HomePage() {
             </motion.p>
 
             {/* Headline */}
-            <h1 className="font-display text-4xl font-black uppercase leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              <span className="mb-1 block text-3xl text-white sm:text-4xl md:text-5xl lg:text-6xl">Building</span>
-              <span className="block min-h-[2.25em] sm:min-h-[1.12em]">
+            <h1 className="font-display text-5xl font-black uppercase tracking-tight text-white md:text-6xl lg:text-7xl leading-[1.05]">
+              <span className="block text-white text-4xl md:text-5xl lg:text-6xl mb-1">Building</span>
+              <span className="block overflow-hidden" style={{ height: "1.1em" }}>
                 <TypingLine />
               </span>
               <span className="block gradient-text glow-text">with founder-grade taste.</span>
@@ -154,7 +154,7 @@ export function HomePage() {
             initial={{ opacity: 0, scale: 0.94, y: 24 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="relative mx-auto w-full max-w-[480px] lg:mx-0 lg:sticky lg:top-24 lg:self-start"
+            className="relative mx-auto w-full lg:mx-0 lg:sticky lg:top-24 lg:self-start"
           >
             {/* Floating info cards */}
             <div className="absolute -left-6 top-8 z-20 glass-orange rounded-lg px-4 py-3 shadow-dark">
@@ -197,7 +197,7 @@ export function HomePage() {
                 height={900}
                 priority
                 sizes="(min-width: 1024px) 42vw, 92vw"
-                className="relative z-[5] aspect-[4/5] w-full object-cover object-[52%_50%]"
+                className="relative z-[5] aspect-[3/5] w-full object-cover object-[52%_50%]"
               />
             </div>
 
