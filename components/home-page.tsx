@@ -95,9 +95,9 @@ export function HomePage() {
             </motion.p>
 
             {/* Headline */}
-            <h1 className="font-display text-5xl font-black uppercase tracking-tight text-white md:text-6xl lg:text-7xl leading-[1.05]">
-              <span className="block text-white text-4xl md:text-5xl lg:text-6xl mb-1">Building</span>
-              <span className="block overflow-hidden" style={{ height: "1.1em" }}>
+            <h1 className="font-display text-4xl font-black uppercase leading-[1.08] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+              <span className="mb-1 block text-3xl text-white sm:text-4xl md:text-5xl lg:text-6xl">Building</span>
+              <span className="block min-h-[2.25em] sm:min-h-[1.12em]">
                 <TypingLine />
               </span>
               <span className="block gradient-text glow-text">with founder-grade taste.</span>

@@ -37,10 +37,10 @@ export function TypingLine() {
   const rendered = useMemo(() => phrase.slice(0, length), [length, phrase]);
 
   return (
-    <span className="inline-flex min-w-[8ch] items-center gradient-text glow-text">
-      {rendered}
+    <span className="inline-flex max-w-full min-w-0 items-center whitespace-normal break-words gradient-text glow-text sm:min-w-[23ch] sm:whitespace-nowrap">
+      <span>{rendered || "\u00A0"}</span>
       <span
-        className="ml-1 h-[0.8em] w-[3px] animate-pulse bg-orange rounded-sm"
+        className="ml-1 inline-block h-[0.8em] w-[3px] shrink-0 animate-pulse rounded-sm bg-orange"
         aria-hidden
       />
     </span>
