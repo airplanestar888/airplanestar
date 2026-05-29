@@ -59,6 +59,24 @@ export const projects: Project[] = [
     ]
   },
   {
+    slug: "star-record",
+    title: "Star Record",
+    description: "A browser recording tool for capturing web sessions, workflows, and repeatable interaction demos.",
+    longDescription:
+      "Star Record is a browser recorder project for saving web interactions, documenting workflows, and turning repeated browser actions into reusable product demos or automation references.",
+    status: "Open Source",
+    stack: ["Browser Recorder", "Workflow", "Automation", "Web Tool"],
+    icon: "workflow",
+    accent: "mint",
+    links: [
+      {
+        label: "Code",
+        href: "https://github.com/airplanestar888/Star-Recorder",
+        kind: "code"
+      }
+    ]
+  },
+  {
     slug: "mojiflash",
     title: "Mojiflash",
     description: "A Japanese learning web app for hiragana flashcards, vocabulary practice, and focused quizzes.",
