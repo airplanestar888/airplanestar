@@ -105,7 +105,7 @@ export const projects: Project[] = [
     stack: ["POS", "Inventory", "Members", "Reports"],
     icon: "store",
     accent: "coral",
-    thumbnail: "/petshop-pos-preview.svg",
+    thumbnail: "/petshop-pos-preview.png",
     links: [
       {
         label: "Details",
