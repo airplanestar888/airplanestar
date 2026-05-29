@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const contactLinks = [
   { href: siteConfig.x, label: "X / Twitter", value: siteConfig.handle, icon: Twitter },
-  { href: siteConfig.github, label: "GitHub", value: "airplanestar", icon: Github },
+  { href: siteConfig.github, label: "GitHub", value: "airplanestar888", icon: Github },
   { href: siteConfig.instagram, label: "Instagram", value: "@air.planestar", icon: Instagram },
   { href: siteConfig.telegram, label: "Telegram", value: "t.me/airplanestar", icon: Send }
 ];
